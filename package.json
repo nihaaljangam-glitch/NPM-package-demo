@@ -1,7 +1,7 @@
 {
   "name": "express-api-logger-demo",
   "version": "1.0.0",
-  "description": "Demo project showcasing @nihaljangam/express-api-logger middleware in a real Express.js API.",
+  "description": "Demo project showcasing @nihaaljangam-glitch/express-api-logger middleware in a real Express.js API.",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "Nihal Jangam",
   "license": "MIT",
   "dependencies": {
-    "@nihaljangam/express-api-logger": "^1.0.0",
+    "@nihaaljangam-glitch/express-api-logger": "^1.0.0",
     "express": "^4.21.2"
   },
   "engines": {

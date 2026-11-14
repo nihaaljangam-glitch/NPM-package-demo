@@ -1,5 +1,5 @@
 /**
- * Demo server for @nihaljangam/express-api-logger
+ * Demo server for @nihaaljangam-glitch/express-api-logger
  *
  * This project demonstrates how to integrate the express-api-logger
  * middleware into a real Express.js REST API.
@@ -11,7 +11,7 @@
 "use strict";
 
 const express = require("express");
-const apiLogger = require("@nihaljangam/express-api-logger");
+const apiLogger = require("@nihaaljangam-glitch/express-api-logger");
 
 const app = express();
 
@@ -112,7 +112,7 @@ app.listen(PORT, () => {
   console.log("║       Express API Logger — Demo Server               ║");
   console.log("╠══════════════════════════════════════════════════════╣");
   console.log(`║  Server  : http://localhost:${PORT}                     ║`);
-  console.log("║  Package : @nihaljangam/express-api-logger           ║");
+  console.log("║  Package : @nihaaljangam-glitch/express-api-logger           ║");
   console.log("╠══════════════════════════════════════════════════════╣");
   console.log("║  Available Routes:                                   ║");
   console.log("║  GET    /health              (silent – not logged)   ║");

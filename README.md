@@ -1,6 +1,6 @@
 # Express API Logger — Demo Project
 
-A working Express.js REST API that demonstrates the [`@nihaljangam/express-api-logger`](https://github.com/nihaaljangam-glitch/NPM-package) middleware in action.
+A working Express.js REST API that demonstrates the [`@nihaaljangam-glitch/express-api-logger`](https://github.com/nihaaljangam-glitch/NPM-package) middleware in action.
 
 ---
 
@@ -20,7 +20,7 @@ This demo proves that the `express-api-logger` middleware:
 
 | Field | Value |
 | :--- | :--- |
-| Package | `@nihaljangam/express-api-logger` |
+| Package | `@nihaaljangam-glitch/express-api-logger` |
 | Version | `1.0.0` |
 | Source | [github.com/nihaaljangam-glitch/NPM-package](https://github.com/nihaaljangam-glitch/NPM-package) |
 
@@ -54,7 +54,7 @@ The server starts at **http://localhost:3000**
 ## Middleware Configuration Used
 
 ```javascript
-const apiLogger = require("@nihaljangam/express-api-logger");
+const apiLogger = require("@nihaaljangam-glitch/express-api-logger");
 
 app.use(
   apiLogger({
