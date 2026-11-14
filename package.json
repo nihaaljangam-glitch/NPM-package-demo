@@ -1,0 +1,31 @@
+{
+  "name": "express-api-logger-demo",
+  "version": "1.0.0",
+  "description": "Demo project showcasing @nihaljangam/express-api-logger middleware in a real Express.js API.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "api-logger",
+    "demo",
+    "middleware"
+  ],
+  "author": "Nihal Jangam",
+  "license": "MIT",
+  "dependencies": {
+    "@nihaljangam/express-api-logger": "^1.0.0",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nihaaljangam-glitch/NPM-package-demo.git"
+  },
+  "homepage": "https://github.com/nihaaljangam-glitch/NPM-package-demo#readme"
+}
